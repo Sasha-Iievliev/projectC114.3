@@ -1,0 +1,18 @@
+body{
+    background-size:cover;
+    font-size:20px;
+}
+.heading{
+    width:100%;
+    font-size:35px;
+    margin-top:0px;
+}
+canvas{
+    animation-name: kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes kf {
+    from{box-shadow : 2px 2px 40px yellow; }
+    to{box-shadow : 2px 2px 40px orange; }
+}
